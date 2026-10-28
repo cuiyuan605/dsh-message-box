@@ -1,0 +1,28 @@
+{
+  "format": 1,
+  "title": { "en": "dsh-message-box", "zh": "消息盒子" },
+  "description": {
+    "en": "A small market index for the dsh-message-box plugin.",
+    "zh": "dsh-message-box 插件的小型市场索引。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-message-box",
+      "title": { "en": "Message Box", "zh": "消息盒子" },
+      "description": {
+        "en": "Finished conversations and pending approvals in one floating inbox; jump to the conversation or approve inline.",
+        "zh": "把「对话执行完成」和「等待审批」收进一个浮动消息盒子，可跳转对话，也可直接在列表里审批。"
+      },
+      "icon": "icons/message-box.svg",
+      "author": "cy1988",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793160403,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0-rc.2 <0.3.0-0" }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+- insert:
+    - id: message-box
+      name: 'dsh-message-box'
